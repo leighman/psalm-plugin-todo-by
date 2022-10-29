@@ -13,9 +13,7 @@ use DateTimeImmutable;
  */
 class DocblockParser
 {
-
     /**
-     * @psalm-pure
      * @psalm-return ParseResult|"invalid"|"not-found"
      */
     public static function extractTodoBy(string $docblock)
